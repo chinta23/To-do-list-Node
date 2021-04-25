@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-test-app",
+  "version": "1.0.0",
+  "description": "NodeJS Test App",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.3.4",
+    "event-stream": "^4.0.1",
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
+    "g": "^2.0.1",
+    "lodash": "^4.17.11",
+    "log4js": "^3.0.5",
+    "mongoose": "^4.1.7",
+    "multer": "^1.4.1",
+    "mysql": "^2.9.0",
+    "mysql2": "^1.6.3",
+    "path": "^0.12.7",
+    "querystring": "^0.2.0",
+    "sequelize": "^4.41.1",
+    "sequelize-cli": "^4.1.1",
+    "tough-cookie": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
